@@ -235,5 +235,17 @@ testimonialSection.forEach((testimonial) => {
     testimonialsec.appendChild(tesCard);
 });
 
+const hamburger = document.getElementById('hamburger');
+const navItems = document.getElementById('nav-items');
 
+hamburger.addEventListener('click', () => {
+  navItems.classList.toggle('active');
+});
+
+// Close menu when a nav link is clicked
+document.querySelectorAll('.nav-items a').forEach(link => {
+  link.addEventListener('click', () => {
+    navItems.classList.remove('active');
+  });
+});
 

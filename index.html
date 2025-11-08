@@ -21,18 +21,29 @@
   <!-- 2. Navbar -->
   <nav>
     <div class="logo">MY</div>
-    <ul class="nav-items">
+
+    <ul class="nav-items" id="nav-items">
       <li><a href="#">Home</a></li>
       <li><a href="#footer-section">About</a></li>
       <li><a href="#product-cards">Product</a></li>
       <li><a href="#fav-pro-cards">Favourite Products</a></li>
       <li><a href="#footer-section">Contact Us</a></li>
+
+      <!-- mobile only actions -->
+      <li class="mobile-only"><button class="start-btn">Get Started</button></li>
+      <li class="mobile-only"><i class="fa-solid fa-cart-shopping"></i></li>
     </ul>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
     <div class="nav-actions">
       <button class="start-btn">Get Started</button>
       <i class="fa-solid fa-cart-shopping"></i>
     </div>
   </nav>
+
 
   <!-- 3. Hero Section -->
   <section class="hero" id="home">
@@ -54,10 +65,10 @@
 
   <!-- product section -->
   <section class="product-cards" id="product-cards">
-  <h2>PRODUCTS</h2>
-  <div class="cards" id="cards"></div>
-  <button class="shop-btn-p">Shop All</button>
-</section>
+    <h2>PRODUCTS</h2>
+    <div class="cards" id="cards"></div>
+    <button class="shop-btn-p">Shop All</button>
+  </section>
 
 
   <br>
@@ -65,25 +76,25 @@
 
   <!-- customer favorites -->
   <section class="fav-pro-cards" id="fav-pro-cards">
-  <h2>Customer Favorites</h2>
-  <p>Most loved by our community</p>
+    <h2>Customer Favorites</h2>
+    <p>Most loved by our community</p>
 
-  <div class="fav-cards" id="fav-cards">
-    <!-- JavaScript se cards yahan add honge -->
-  </div>
-</section>
+    <div class="fav-cards" id="fav-cards">
+      <!-- JavaScript se cards yahan add honge -->
+    </div>
+  </section>
 
-<!-- just launched -->
+  <!-- just launched -->
   <section class="just-launched">
-  <div class="j-h-p">
-    <h2>New Product launches</h2>
-    <p>Most loved by our Community</p>
-  </div>
+    <div class="j-h-p">
+      <h2>New Product launches</h2>
+      <p>Most loved by our Community</p>
+    </div>
 
-  <div class="launcheds" id="launcheds">
-    <!-- JavaScript se cards yahan add honge -->
-  </div>
-</section>
+    <div class="launcheds" id="launcheds">
+      <!-- JavaScript se cards yahan add honge -->
+    </div>
+  </section>
 
 
   <!-- promotion section -->
@@ -109,7 +120,7 @@
       <!-- tes-card1 -->
       <!-- tes-card2 -->
       <!-- tes-card3 -->
-      
+
     </div>
 
   </section>
@@ -117,7 +128,7 @@
   <!-- footer section -->
 
   <section class="footer-section" id="footer-section">
-    
+
     <div class="foothead">
       <h3>Join Our Wellness Community</h3>
       <p>Join thousands getting exclusive offers <br> and heart health tips.</p>
@@ -129,9 +140,10 @@
     <div class="f-log-link">
       <div class="f-logo f-logo-mobile">MY</div>
       <div class="f-social-logo">
-      <a href="https://www.facebook.com/share/17kTVmQVwp/"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.instagram.com/muneebyaseen04?igsh=dTYwdDBheGc0ODg="><i class="fa-brands fa-instagram"></i></a>
-      <a href="http://tiktok.com/@muneeb.yaseen_4"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.facebook.com/share/17kTVmQVwp/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/muneebyaseen04?igsh=dTYwdDBheGc0ODg="><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="http://tiktok.com/@muneeb.yaseen_4"><i class="fa-brands fa-tiktok"></i></a>
       </div>
     </div>
 
